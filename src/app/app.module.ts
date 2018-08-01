@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatButtonModule } from '@angular/material';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
+import { SelectionListComponent } from './selection-list/selection-list.component';
+import { SelectionDetailComponent } from './selection-detail/selection-detail.component';
 
 
 
@@ -14,7 +16,9 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    NavMenuComponent
+    NavMenuComponent,
+    SelectionListComponent,
+    SelectionDetailComponent
   ],
   imports: [
     BrowserModule,
